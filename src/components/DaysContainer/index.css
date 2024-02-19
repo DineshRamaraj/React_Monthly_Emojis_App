@@ -1,0 +1,37 @@
+.emoji-container {
+  padding: 20px;
+  padding-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #343243;
+  align-items: center;
+  height: 200px;
+}
+
+.emoji-days-select {
+  display: flex;
+  align-items: center;
+}
+
+.select-container {
+  width: 180px;
+  margin-left: 10px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #42404d;
+  color: #cbd5e1;
+}
+
+.option-item {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.result-content {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+}

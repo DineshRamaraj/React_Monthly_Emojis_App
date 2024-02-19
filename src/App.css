@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #ffbe38;
+}
+
+.main-app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/monthly-emojis/monthly-emojis-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+}
+
+.emoji-days-container {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-days-container {
+    width: 35%;
+  }
+}
